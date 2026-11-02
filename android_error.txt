@@ -1,0 +1,1030 @@
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	﻿2026-11-01T16:16:12.1072948Z ##[group]Build container for action use: '/home/runner/work/_actions/ArtemSBulgakov/buildozer-action/v1/Dockerfile'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.1210454Z ##[command]/usr/bin/docker build -t e56721:eb8270ffacb648f0a259b200084ec2b7 -f "/home/runner/work/_actions/ArtemSBulgakov/buildozer-action/v1/Dockerfile" "/home/runner/work/_actions/ArtemSBulgakov/buildozer-action/v1"
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.6679044Z #0 building with "default" instance using docker driver
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.6679828Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.6680125Z #1 [internal] load build definition from Dockerfile
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.6680857Z #1 transferring dockerfile: 1.03kB done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.6681482Z #1 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.6681754Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:12.6682105Z #2 [internal] load metadata for ghcr.io/kivy/buildozer:latest
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.3581326Z #2 DONE 0.8s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4815612Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4816697Z #3 [internal] load .dockerignore
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4817771Z #3 transferring context: 2B done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4818643Z #3 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4819142Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4819496Z #4 [internal] load build context
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4820395Z #4 transferring context: 5.13kB done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4821289Z #4 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4821694Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4822713Z #5 [1/8] FROM ghcr.io/kivy/buildozer:latest@sha256:92860ae3822fd533b90ab11f7c2272859980d34b791b1454a09a90e9849a5c7a
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4825083Z #5 resolve ghcr.io/kivy/buildozer:latest@sha256:92860ae3822fd533b90ab11f7c2272859980d34b791b1454a09a90e9849a5c7a done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4827890Z #5 sha256:a8c950f465fb73751274a470189fca2c4f23bc474c567e37ebbdf8cb281a4e6d 8.05kB / 8.05kB done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4830162Z #5 sha256:d9d511d19a19ebdeda520e0752f184d457905c7a310df5b748d133a51274ecd4 0B / 391B 0.1s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4832294Z #5 sha256:92860ae3822fd533b90ab11f7c2272859980d34b791b1454a09a90e9849a5c7a 1.61kB / 1.61kB done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4835119Z #5 sha256:336e5ceb9a94fa317f34df980ea8d6d1c1ec8cbf9077d4188993641ef1210491 2.01kB / 2.01kB done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4838036Z #5 sha256:435bf5c20694c99dd5a9877e58e24b26a2207fcf8c692a3c3ce3c867770a5b41 0B / 42.15MB 0.1s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.4840769Z #5 sha256:9de25a8e9e82cb768c7e7a6839bd366dddb62c314cc737257d26c5b3a78eaca8 0B / 37.64MB 0.1s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.5819485Z #5 sha256:d9d511d19a19ebdeda520e0752f184d457905c7a310df5b748d133a51274ecd4 391B / 391B 0.1s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.5824465Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 0B / 426.04MB 0.2s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.6827705Z #5 sha256:435bf5c20694c99dd5a9877e58e24b26a2207fcf8c692a3c3ce3c867770a5b41 5.24MB / 42.15MB 0.3s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.8787130Z #5 sha256:435bf5c20694c99dd5a9877e58e24b26a2207fcf8c692a3c3ce3c867770a5b41 42.15MB / 42.15MB 0.4s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.8799009Z #5 sha256:9de25a8e9e82cb768c7e7a6839bd366dddb62c314cc737257d26c5b3a78eaca8 26.21MB / 37.64MB 0.4s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.8800548Z #5 extracting sha256:435bf5c20694c99dd5a9877e58e24b26a2207fcf8c692a3c3ce3c867770a5b41
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.9816753Z #5 sha256:435bf5c20694c99dd5a9877e58e24b26a2207fcf8c692a3c3ce3c867770a5b41 42.15MB / 42.15MB 0.4s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.9826738Z #5 sha256:9de25a8e9e82cb768c7e7a6839bd366dddb62c314cc737257d26c5b3a78eaca8 37.64MB / 37.64MB 0.4s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.9838483Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 70.25MB / 426.04MB 0.6s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.9843687Z #5 sha256:adc26159d516ed35ed0e556aaf922284bae264a1a550cad13e1eaa908bb01c9c 3.70MB / 3.70MB 0.5s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.9848415Z #5 sha256:bf22b9a74d1ec4349cc71c521a6ad39a19bbb61cf0305f213f80bce2c5de9281 137B / 137B 0.6s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.9851613Z #5 sha256:d51099ef4383aea8c5b4500fe853b852bc16bb610f12743f892ce083f8dd5547 0B / 242.29kB 0.6s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:13.9854039Z #5 sha256:6fe0993abe4b92da4e119ea6e58900cf8b04f9767aed66ecca289fdbdfbb6b78 0B / 803B 0.6s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.0949924Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 109.05MB / 426.04MB 0.7s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.0952486Z #5 sha256:d51099ef4383aea8c5b4500fe853b852bc16bb610f12743f892ce083f8dd5547 242.29kB / 242.29kB 0.7s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.0954157Z #5 sha256:a3f1e4ed1825ff98ee185d207240ee879b1d2036bf12802e1c903dd719776d8b 0B / 11.76MB 0.7s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.1994390Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 148.90MB / 426.04MB 0.8s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.1996154Z #5 sha256:6fe0993abe4b92da4e119ea6e58900cf8b04f9767aed66ecca289fdbdfbb6b78 803B / 803B 0.7s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.3380323Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 170.92MB / 426.04MB 0.9s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.4576864Z #5 sha256:a3f1e4ed1825ff98ee185d207240ee879b1d2036bf12802e1c903dd719776d8b 9.44MB / 11.76MB 0.9s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.4578277Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 205.52MB / 426.04MB 1.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.4580186Z #5 sha256:a3f1e4ed1825ff98ee185d207240ee879b1d2036bf12802e1c903dd719776d8b 11.76MB / 11.76MB 1.0s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.5603984Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 251.66MB / 426.04MB 1.1s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.6621311Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 293.60MB / 426.04MB 1.2s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.7635001Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 335.54MB / 426.04MB 1.3s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:14.8811441Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 415.24MB / 426.04MB 1.5s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:15.6807340Z #5 sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 426.04MB / 426.04MB 2.3s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:16.2639751Z #5 extracting sha256:435bf5c20694c99dd5a9877e58e24b26a2207fcf8c692a3c3ce3c867770a5b41 2.4s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:16.4004700Z #5 extracting sha256:d9d511d19a19ebdeda520e0752f184d457905c7a310df5b748d133a51274ecd4
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:16.5513111Z #5 extracting sha256:d9d511d19a19ebdeda520e0752f184d457905c7a310df5b748d133a51274ecd4 done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:16.8531632Z #5 extracting sha256:9de25a8e9e82cb768c7e7a6839bd366dddb62c314cc737257d26c5b3a78eaca8
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:17.4452596Z #5 extracting sha256:9de25a8e9e82cb768c7e7a6839bd366dddb62c314cc737257d26c5b3a78eaca8 0.5s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:17.4453348Z #5 extracting sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:22.5011709Z #5 extracting sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 5.1s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:26.2444709Z #5 extracting sha256:f1a9af7a0247022e9ecabeba6f70700447041702144cba3607429ed7f00017d8 8.8s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:28.8887965Z #5 extracting sha256:adc26159d516ed35ed0e556aaf922284bae264a1a550cad13e1eaa908bb01c9c
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:29.2023551Z #5 extracting sha256:adc26159d516ed35ed0e556aaf922284bae264a1a550cad13e1eaa908bb01c9c 0.3s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:29.2025607Z #5 extracting sha256:bf22b9a74d1ec4349cc71c521a6ad39a19bbb61cf0305f213f80bce2c5de9281
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:29.3972971Z #5 extracting sha256:bf22b9a74d1ec4349cc71c521a6ad39a19bbb61cf0305f213f80bce2c5de9281 done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:29.3974309Z #5 extracting sha256:d51099ef4383aea8c5b4500fe853b852bc16bb610f12743f892ce083f8dd5547 0.0s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:29.3975648Z #5 extracting sha256:6fe0993abe4b92da4e119ea6e58900cf8b04f9767aed66ecca289fdbdfbb6b78 done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:29.3976714Z #5 extracting sha256:a3f1e4ed1825ff98ee185d207240ee879b1d2036bf12802e1c903dd719776d8b 0.1s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.0626645Z #5 extracting sha256:a3f1e4ed1825ff98ee185d207240ee879b1d2036bf12802e1c903dd719776d8b 0.6s done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.0636212Z #5 DONE 16.5s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.0636506Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.0636777Z #6 [2/8] RUN pip3 uninstall -y buildozer
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.2814025Z #6 0.372 Found existing installation: buildozer 1.6.1.dev0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.4868407Z #6 0.376 Uninstalling buildozer-1.6.1.dev0:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.4868917Z #6 0.380   Successfully uninstalled buildozer-1.6.1.dev0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.4869608Z #6 DONE 0.4s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.4869817Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.4870591Z #7 [3/8] RUN sudo apt-get update &&     sudo apt-get install -y software-properties-common &&     sudo rm -rf /var/lib/apt/lists/*
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:30.8428371Z #7 0.507 Hit:1 http://archive.ubuntu.com/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:31.0850753Z #7 0.555 Get:2 http://archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:31.0851434Z #7 0.598 Get:3 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:31.1305987Z #7 0.794 Get:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:31.3398180Z #7 0.890 Get:5 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Packages [472 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:31.3399376Z #7 1.004 Get:6 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages [991 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:31.5636873Z #7 1.077 Get:7 http://archive.ubuntu.com/ubuntu resolute-updates/restricted amd64 Packages [668 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:31.6680722Z #7 1.332 Get:8 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages [746 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:32.2831787Z #7 1.947 Get:9 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Packages [258 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:32.4862063Z #7 1.999 Fetched 3,546 kB in 2s (1,931 kB/s)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:32.9554959Z #7 1.999 Reading package lists...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:33.5910800Z #7 2.645 Reading package lists...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:33.7506235Z #7 3.268 Building dependency tree...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:33.9141447Z #7 3.414 Reading state information...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:33.9143005Z #7 3.446 Solving dependencies...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:33.9156237Z #7 3.578 The following additional packages will be installed:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:33.9157365Z #7 3.578   adduser appstream dbus dbus-bin dbus-daemon dbus-session-bus-common
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1420198Z #7 3.578   dbus-system-bus-common dbus-user-session dirmngr distro-info-data dmsetup
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1421545Z #7 3.578   gir1.2-girepository-3.0 gir1.2-glib-2.0 gir1.2-packagekitglib-1.0 gpg
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1422457Z #7 3.578   gpg-agent gpgconf iso-codes libappstream5 libassuan9 libcap2-bin
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1423240Z #7 3.578   libcryptsetup12 libdevmapper1.02.1 libduktape207 libfyaml0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1424007Z #7 3.578   libgirepository-2.0-0 libglib2.0-bin libglib2.0-data libgstreamer1.0-0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1424750Z #7 3.578   libjson-c5 libkmod2 libksba8 libnpth0t64 libnss-systemd
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1425825Z #7 3.578   libpackagekit-glib2-18 libpam-cap libpam-systemd libpolkit-agent-1-0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1426627Z #7 3.579   libpolkit-gobject-1-0 libstemmer0d libsystemd-shared libsystemd0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1427232Z #7 3.579   libtext-charwidth-perl libtext-wrapi18n-perl libudev1 libxmlb2
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1427976Z #7 3.579   linux-sysctl-defaults lsb-release packagekit pinentry-curses polkitd
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1428856Z #7 3.579   python-apt-common python3-apt python3-bcrypt python3-blinker
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1430069Z #7 3.579   python3-cffi-backend python3-cryptography python3-dbus python3-distro
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1431199Z #7 3.579   python3-distro-info python3-gi python3-httplib2 python3-jwt
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1432251Z #7 3.579   python3-launchpadlib python3-lazr.restfulclient python3-lazr.uri
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1433372Z #7 3.579   python3-oauthlib python3-pyparsing python3-software-properties
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1434480Z #7 3.579   python3-wadllib sgml-base systemd systemd-cryptsetup systemd-resolved
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1435648Z #7 3.579   systemd-sysv systemd-timesyncd ucf unattended-upgrades xml-core
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1436117Z #7 3.580 Suggested packages:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1436569Z #7 3.580   liblocale-gettext-perl cron quota ecryptfs-utils apt-config-icons gnupg
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1437217Z #7 3.580   pinentry-gnome3 tor scdaemon tpm2daemon isoquery gstreamer1.0-tools
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1437859Z #7 3.580   libtss2-esys-3.0.2-0t64 libtss2-mu-4.0.1-0t64 libtss2-rc0t64 systemd-userdbd
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1438444Z #7 3.580   libbpf1 libdw1t64 libfido2-1 libpwquality1 libqrencode4 pinentry-doc
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1438949Z #7 3.580   python-apt-doc python-blinker-doc python-cryptography-doc
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1439717Z #7 3.580   python3-cryptography-vectors python-dbus-doc python-jwt-doc python3-crypto
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1440294Z #7 3.580   python3-keyring python3-testresources python-pyparsing-doc sgml-base-doc
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1440798Z #7 3.580   systemd-container systemd-homed systemd-boot systemd-repart
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1441267Z #7 3.580   libtss2-tcti-device0 bsd-mailx default-mta | mail-transport-agent
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1441677Z #7 3.580   needrestart powermgmt-base debhelper
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1442006Z #7 3.653 The following NEW packages will be installed:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1442491Z #7 3.653   adduser appstream dbus dbus-bin dbus-daemon dbus-session-bus-common
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1443036Z #7 3.653   dbus-system-bus-common dbus-user-session dirmngr distro-info-data dmsetup
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1443577Z #7 3.653   gir1.2-girepository-3.0 gir1.2-glib-2.0 gir1.2-packagekitglib-1.0 gpg
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1444076Z #7 3.653   gpg-agent gpgconf iso-codes libappstream5 libassuan9 libcap2-bin
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1444910Z #7 3.653   libcryptsetup12 libdevmapper1.02.1 libduktape207 libfyaml0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1445868Z #7 3.653   libgirepository-2.0-0 libglib2.0-bin libglib2.0-data libgstreamer1.0-0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1446425Z #7 3.653   libjson-c5 libkmod2 libksba8 libnpth0t64 libnss-systemd
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1446895Z #7 3.653   libpackagekit-glib2-18 libpam-cap libpam-systemd libpolkit-agent-1-0
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1447448Z #7 3.654   libpolkit-gobject-1-0 libstemmer0d libsystemd-shared libtext-charwidth-perl
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1448013Z #7 3.654   libtext-wrapi18n-perl libxmlb2 linux-sysctl-defaults lsb-release packagekit
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1448558Z #7 3.654   pinentry-curses polkitd python-apt-common python3-apt python3-bcrypt
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1449085Z #7 3.654   python3-blinker python3-cffi-backend python3-cryptography python3-dbus
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1449785Z #7 3.654   python3-distro python3-distro-info python3-gi python3-httplib2 python3-jwt
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1450312Z #7 3.654   python3-launchpadlib python3-lazr.restfulclient python3-lazr.uri
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1450796Z #7 3.654   python3-oauthlib python3-pyparsing python3-software-properties
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1451263Z #7 3.654   python3-wadllib sgml-base software-properties-common systemd
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1451774Z #7 3.654   systemd-cryptsetup systemd-resolved systemd-sysv systemd-timesyncd ucf
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1452186Z #7 3.654   unattended-upgrades xml-core
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1452482Z #7 3.655 The following packages will be upgraded:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.1452789Z #7 3.655   libsystemd0 libudev1
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.2483104Z #7 3.912 2 upgraded, 78 newly installed, 0 to remove and 4 not upgraded.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.2483637Z #7 3.912 Need to get 19.9 MB of archives.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.2484290Z #7 3.912 After this operation, 77.8 MB of additional disk space will be used.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:34.2485611Z #7 3.912 Get:1 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libsystemd-shared amd64 259.9-0ubuntu0.1 [2,473 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.2670297Z #7 4.931 Get:2 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libsystemd0 amd64 259.9-0ubuntu0.1 [481 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.4182187Z #7 4.946 Get:3 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd amd64 259.9-0ubuntu0.1 [3,137 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.4183377Z #7 5.082 Get:4 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd-sysv amd64 259.9-0ubuntu0.1 [9,420 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6121869Z #7 5.082 Get:5 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libudev1 amd64 259.9-0ubuntu0.1 [151 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6123939Z #7 5.087 Get:6 http://archive.ubuntu.com/ubuntu resolute/main amd64 adduser all 3.153ubuntu1 [194 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6125585Z #7 5.093 Get:7 http://archive.ubuntu.com/ubuntu resolute/main amd64 dbus-bin amd64 1.16.2-2ubuntu4 [40.1 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6126932Z #7 5.094 Get:8 http://archive.ubuntu.com/ubuntu resolute/main amd64 dbus-session-bus-common all 1.16.2-2ubuntu4 [54.5 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6128285Z #7 5.096 Get:9 http://archive.ubuntu.com/ubuntu resolute/main amd64 dbus-daemon amd64 1.16.2-2ubuntu4 [119 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6129060Z #7 5.100 Get:10 http://archive.ubuntu.com/ubuntu resolute/main amd64 dbus-system-bus-common all 1.16.2-2ubuntu4 [55.9 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6129790Z #7 5.102 Get:11 http://archive.ubuntu.com/ubuntu resolute/main amd64 dbus amd64 1.16.2-2ubuntu4 [24.2 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6130613Z #7 5.160 Get:12 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpam-systemd amd64 259.9-0ubuntu0.1 [273 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.6132004Z #7 5.275 Get:13 http://archive.ubuntu.com/ubuntu resolute/main amd64 dbus-user-session amd64 1.16.2-2ubuntu4 [9,682 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7265727Z #7 5.276 Get:14 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 distro-info-data all 2026.10.12-0ubuntu0.26.04.1 [6,382 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7267320Z #7 5.276 Get:15 http://archive.ubuntu.com/ubuntu resolute/main amd64 libdevmapper1.02.1 amd64 2:1.02.205-2ubuntu3 [142 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7268361Z #7 5.278 Get:16 http://archive.ubuntu.com/ubuntu resolute/main amd64 dmsetup amd64 2:1.02.205-2ubuntu3 [79.4 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7269362Z #7 5.279 Get:17 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 gir1.2-glib-2.0 amd64 2.88.0-1ubuntu0.1 [183 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7270463Z #7 5.282 Get:18 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libgirepository-2.0-0 amd64 2.88.0-1ubuntu0.1 [76.1 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7271622Z #7 5.283 Get:19 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 gir1.2-girepository-3.0 amd64 2.88.0-1ubuntu0.1 [25.2 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7272629Z #7 5.284 Get:20 http://archive.ubuntu.com/ubuntu resolute/main amd64 iso-codes all 4.20.1-1 [3,899 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7273525Z #7 5.346 Get:21 http://archive.ubuntu.com/ubuntu resolute/main amd64 libcap2-bin amd64 1:2.75-10ubuntu2 [33.5 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.7274661Z #7 5.390 Get:22 http://archive.ubuntu.com/ubuntu resolute/main amd64 libjson-c5 amd64 0.18+ds-3 [35.9 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.8420165Z #7 5.506 Get:23 http://archive.ubuntu.com/ubuntu resolute/main amd64 libcryptsetup12 amd64 2:2.8.4-1ubuntu4 [271 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9567416Z #7 5.508 Get:24 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libglib2.0-data all 2.88.0-1ubuntu0.1 [38.5 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9569279Z #7 5.508 Get:25 http://archive.ubuntu.com/ubuntu resolute/main amd64 libkmod2 amd64 34.2-2ubuntu2 [50.9 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9571032Z #7 5.509 Get:26 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libnss-systemd amd64 259.9-0ubuntu0.1 [227 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9572541Z #7 5.511 Get:27 http://archive.ubuntu.com/ubuntu resolute/main amd64 libpam-cap amd64 1:2.75-10ubuntu2 [12.7 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9574054Z #7 5.511 Get:28 http://archive.ubuntu.com/ubuntu resolute/main amd64 libtext-charwidth-perl amd64 0.04-11build4 [9,530 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9575519Z #7 5.511 Get:29 http://archive.ubuntu.com/ubuntu resolute/main amd64 libtext-wrapi18n-perl all 0.06-10 [7,694 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9576386Z #7 5.512 Get:30 http://archive.ubuntu.com/ubuntu resolute/main amd64 linux-sysctl-defaults all 4.15ubuntu5 [6,208 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9577202Z #7 5.512 Get:31 http://archive.ubuntu.com/ubuntu resolute/main amd64 lsb-release all 12.1-2build1 [6,174 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:35.9578193Z #7 5.621 Get:32 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python-apt-common all 3.1.0ubuntu1.1 [17.0 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.0722105Z #7 5.736 Get:33 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-apt amd64 3.1.0ubuntu1.1 [165 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1868262Z #7 5.737 Get:34 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-cffi-backend amd64 2.0.0-3build1 [85.5 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1869666Z #7 5.738 Get:35 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-dbus amd64 1.4.0-1build2 [101 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1870816Z #7 5.739 Get:36 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-gi amd64 3.56.2-1 [238 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1871936Z #7 5.740 Get:37 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd-cryptsetup amd64 259.9-0ubuntu0.1 [125 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1872871Z #7 5.742 Get:38 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd-resolved amd64 259.9-0ubuntu0.1 [300 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1873897Z #7 5.744 Get:39 http://archive.ubuntu.com/ubuntu resolute/main amd64 ucf all 3.0052ubuntu1 [44.3 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1875120Z #7 5.745 Get:40 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-distro-info all 1.15 [8,006 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1876370Z #7 5.745 Get:41 http://archive.ubuntu.com/ubuntu resolute/main amd64 libfyaml0 amd64 0.9.4-1 [301 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.1877053Z #7 5.851 Get:42 http://archive.ubuntu.com/ubuntu resolute/main amd64 libstemmer0d amd64 3.0.1-1 [172 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.3017969Z #7 5.966 Get:43 http://archive.ubuntu.com/ubuntu resolute/main amd64 libxmlb2 amd64 0.3.24-2 [68.2 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4170467Z #7 5.967 Get:44 http://archive.ubuntu.com/ubuntu resolute/main amd64 libappstream5 amd64 1.1.2-1 [241 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4171901Z #7 5.968 Get:45 http://archive.ubuntu.com/ubuntu resolute/main amd64 appstream amd64 1.1.2-1 [72.4 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4172796Z #7 5.969 Get:46 http://archive.ubuntu.com/ubuntu resolute/main amd64 libassuan9 amd64 3.0.2-2build1 [41.3 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4173756Z #7 5.970 Get:47 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 gpgconf amd64 2.4.8-4ubuntu3.1 [106 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4174710Z #7 5.971 Get:48 http://archive.ubuntu.com/ubuntu resolute/main amd64 libksba8 amd64 1.6.7-2build1 [125 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4175845Z #7 5.972 Get:49 http://archive.ubuntu.com/ubuntu resolute/main amd64 libnpth0t64 amd64 1.8-3build1 [9,302 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4177153Z #7 5.972 Get:50 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 dirmngr amd64 2.4.8-4ubuntu3.1 [327 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4178219Z #7 5.974 Get:51 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpackagekit-glib2-18 amd64 1.3.4-3ubuntu1.2 [121 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.4179382Z #7 6.081 Get:52 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 gir1.2-packagekitglib-1.0 amd64 1.3.4-3ubuntu1.2 [25.6 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.5323600Z #7 6.196 Get:53 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 gpg amd64 2.4.8-4ubuntu3.1 [637 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6469050Z #7 6.202 Get:54 http://archive.ubuntu.com/ubuntu resolute/main amd64 pinentry-curses amd64 1.3.2-3ubuntu1 [41.1 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6470515Z #7 6.202 Get:55 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 gpg-agent amd64 2.4.8-4ubuntu3.1 [236 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6471661Z #7 6.204 Get:56 http://archive.ubuntu.com/ubuntu resolute/main amd64 libduktape207 amd64 2.7.0+tests-0ubuntu4 [144 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6472838Z #7 6.205 Get:57 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libglib2.0-bin amd64 2.88.0-1ubuntu0.1 [99.4 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6473977Z #7 6.206 Get:58 http://archive.ubuntu.com/ubuntu resolute/main amd64 libgstreamer1.0-0 amd64 1.28.2-1 [1,218 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6474961Z #7 6.217 Get:59 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpolkit-gobject-1-0 amd64 127-2ubuntu1.1 [45.8 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6476263Z #7 6.218 Get:60 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpolkit-agent-1-0 amd64 127-2ubuntu1.1 [18.1 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6477196Z #7 6.219 Get:61 http://archive.ubuntu.com/ubuntu resolute/main amd64 sgml-base all 1.31+nmu1build1 [11.2 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.6478011Z #7 6.311 Get:62 http://archive.ubuntu.com/ubuntu resolute/main amd64 xml-core all 0.19build1 [20.3 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.7619366Z #7 6.426 Get:63 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 polkitd amd64 127-2ubuntu1.1 [102 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8774485Z #7 6.427 Get:64 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-blinker all 1.9.0-2build1 [10.9 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8777561Z #7 6.427 Get:65 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-bcrypt amd64 5.0.0-3build1 [221 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8779544Z #7 6.429 Get:66 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-cryptography amd64 46.0.5-1ubuntu2.2 [1,160 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8780711Z #7 6.439 Get:67 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-pyparsing all 3.3.2-2 [98.6 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8781770Z #7 6.440 Get:68 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-httplib2 all 0.22.0-1ubuntu0.1 [32.1 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8782874Z #7 6.440 Get:69 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-jwt all 2.10.1-4ubuntu1.3 [23.8 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8783928Z #7 6.441 Get:70 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-lazr.uri all 1.0.6-7build1 [13.9 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8784967Z #7 6.441 Get:71 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-wadllib all 2.0.0-3 [36.3 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.8786250Z #7 6.541 Get:72 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-distro all 1.9.0-1build1 [17.0 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:36.9925815Z #7 6.656 Get:73 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-oauthlib all 3.3.1-1build1 [93.7 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1459109Z #7 6.657 Get:74 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-lazr.restfulclient all 0.14.6-3build1 [51.1 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1461921Z #7 6.658 Get:75 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-launchpadlib all 2.1.0-1build1 [126 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1464479Z #7 6.659 Get:76 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-software-properties all 0.120.1 [28.7 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1466898Z #7 6.660 Get:77 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 packagekit amd64 1.3.4-3ubuntu1.2 [506 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1469098Z #7 6.663 Get:78 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 software-properties-common all 0.120.1 [16.6 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1470978Z #7 6.664 Get:79 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd-timesyncd amd64 259.9-0ubuntu0.1 [41.2 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1472757Z #7 6.664 Get:80 http://archive.ubuntu.com/ubuntu resolute/main amd64 unattended-upgrades all 2.12ubuntu9 [53.3 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1474071Z #7 6.810 debconf: unable to initialize frontend: Dialog
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1475615Z #7 6.810 debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.1477017Z #7 6.810 debconf: falling back to frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.3142903Z #7 6.820 debconf: unable to initialize frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.3143489Z #7 6.820 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.3144001Z #7 6.820 debconf: falling back to frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.3144495Z #7 6.828 debconf: unable to initialize frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.3144984Z #7 6.828 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:37.3145815Z #7 6.828 debconf: falling back to frontend: Noninteractive
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:38.9771433Z #7 8.640 Preconfiguring packages ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1134255Z #7 8.692 Fetched 19.9 MB in 3s (6,652 kB/s)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1135335Z #7 8.708 Selecting previously unselected package libsystemd-shared:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1136102Z #7 8.708 (Reading database ... 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1136544Z (Reading database ... 5%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1136970Z (Reading database ... 10%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1137284Z (Reading database ... 15%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1137520Z (Reading database ... 20%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1137745Z (Reading database ... 25%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1137980Z (Reading database ... 30%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1138360Z (Reading database ... 35%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1138677Z (Reading database ... 40%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1138921Z (Reading database ... 45%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1139135Z (Reading database ... 50%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1139359Z (Reading database ... 55%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1140014Z (Reading database ... 60%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1140250Z (Reading database ... 65%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1140471Z (Reading database ... 70%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1140687Z (Reading database ... 75%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1141052Z (Reading database ... 80%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1141311Z (Reading database ... 85%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1141722Z (Reading database ... 90%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1142122Z (Reading database ... 95%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1142435Z (Reading database ... 100%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1142771Z (Reading database ... 27807 files and directories currently installed.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1143293Z #7 8.725 Preparing to unpack .../libsystemd-shared_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1143938Z #7 8.728 Unpacking libsystemd-shared:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.1144371Z #7 8.777 Preparing to unpack .../libsystemd0_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3245997Z #7 8.780 Unpacking libsystemd0:amd64 (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3246964Z #7 8.811 Setting up libsystemd0:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3247578Z #7 8.813 Setting up libsystemd-shared:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3248173Z #7 8.834 Selecting previously unselected package systemd.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3248573Z #7 8.834 (Reading database ... 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3248860Z (Reading database ... 5%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3249144Z (Reading database ... 10%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3249409Z (Reading database ... 15%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3249674Z (Reading database ... 20%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3249934Z (Reading database ... 25%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3250194Z (Reading database ... 30%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3250457Z (Reading database ... 35%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3250766Z (Reading database ... 40%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3251169Z (Reading database ... 45%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3251703Z (Reading database ... 50%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3251966Z (Reading database ... 55%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3252226Z (Reading database ... 60%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3252500Z (Reading database ... 65%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3252761Z (Reading database ... 70%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3253020Z (Reading database ... 75%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3253369Z (Reading database ... 80%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3253629Z (Reading database ... 85%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3253887Z (Reading database ... 90%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3254144Z (Reading database ... 95%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3254410Z (Reading database ... 100%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3254798Z (Reading database ... 27815 files and directories currently installed.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3255629Z #7 8.848 Preparing to unpack .../systemd_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3256050Z #7 8.856 Unpacking systemd (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.3256379Z #7 8.988 Setting up systemd (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4834443Z #7 9.001 Created symlink '/etc/systemd/system/getty.target.wants/getty@tty1.service' → '/usr/lib/systemd/system/getty@.service'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4835712Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4837457Z #7 9.004 Created symlink '/etc/systemd/system/multi-user.target.wants/remote-fs.target' → '/usr/lib/systemd/system/remote-fs.target'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4838726Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4839690Z #7 9.008 Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-pstore.service' → '/usr/lib/systemd/system/systemd-pstore.service'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4840996Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4841447Z #7 9.010 Initializing machine ID from random generator.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4842032Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4842438Z #7 9.028 Creating group 'systemd-journal' with GID 999.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4843015Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4843419Z #7 9.028 Creating group 'systemd-network' with GID 998.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4843974Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4844581Z #7 9.028 Creating user 'systemd-network' (systemd Network Management) with UID 998 and GID 998.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4845672Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.4846143Z #7 9.147 Selecting previously unselected package systemd-sysv.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6023359Z #7 9.147 (Reading database ... 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6024439Z (Reading database ... 5%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6024840Z (Reading database ... 10%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6025634Z (Reading database ... 15%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6025930Z (Reading database ... 20%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6026157Z (Reading database ... 25%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6026420Z (Reading database ... 30%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6026644Z (Reading database ... 35%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6026859Z (Reading database ... 40%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6027073Z (Reading database ... 45%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6027282Z (Reading database ... 50%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6027491Z (Reading database ... 55%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6027708Z (Reading database ... 60%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6027919Z (Reading database ... 65%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6028128Z (Reading database ... 70%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6028342Z (Reading database ... 75%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6028556Z (Reading database ... 80%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6028786Z (Reading database ... 85%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6028996Z (Reading database ... 90%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6029206Z (Reading database ... 95%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6029421Z (Reading database ... 100%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6029757Z (Reading database ... 28792 files and directories currently installed.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6030256Z #7 9.162 Preparing to unpack .../systemd-sysv_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6030684Z #7 9.163 Unpacking systemd-sysv (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6031075Z #7 9.180 Preparing to unpack .../libudev1_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6031537Z #7 9.183 Unpacking libudev1:amd64 (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6031966Z #7 9.207 Setting up libudev1:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6032332Z #7 9.226 Selecting previously unselected package adduser.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6032638Z #7 9.226 (Reading database ... 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6032874Z (Reading database ... 5%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6033291Z (Reading database ... 10%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6033506Z (Reading database ... 15%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6033727Z (Reading database ... 20%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6033942Z (Reading database ... 25%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6034155Z (Reading database ... 30%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6034365Z (Reading database ... 35%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6034576Z (Reading database ... 40%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6034785Z (Reading database ... 45%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6034994Z (Reading database ... 50%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6035469Z (Reading database ... 55%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6035797Z (Reading database ... 60%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6036011Z (Reading database ... 65%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6036225Z (Reading database ... 70%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6111439Z (Reading database ... 75%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6111908Z (Reading database ... 80%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6112339Z (Reading database ... 85%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6112783Z (Reading database ... 90%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6113249Z (Reading database ... 95%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6113632Z (Reading database ... 100%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6114171Z (Reading database ... 28807 files and directories currently installed.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6114915Z #7 9.240 Preparing to unpack .../adduser_3.153ubuntu1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6115813Z #7 9.242 Unpacking adduser (3.153ubuntu1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.6116391Z #7 9.266 Setting up adduser (3.153ubuntu1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7102020Z #7 9.292 Selecting previously unselected package dbus-bin.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7102784Z #7 9.292 (Reading database ... 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7103244Z (Reading database ... 5%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7103634Z (Reading database ... 10%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7104027Z (Reading database ... 15%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7104283Z (Reading database ... 20%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7104551Z (Reading database ... 25%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7104794Z (Reading database ... 30%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7105034Z (Reading database ... 35%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7105776Z (Reading database ... 40%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7106044Z (Reading database ... 45%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7106317Z (Reading database ... 50%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7106565Z (Reading database ... 55%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7106806Z (Reading database ... 60%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7107299Z (Reading database ... 65%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7107549Z (Reading database ... 70%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7107799Z (Reading database ... 75%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7108050Z (Reading database ... 80%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7108288Z (Reading database ... 85%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7108527Z (Reading database ... 90%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7108763Z (Reading database ... 95%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7109011Z (Reading database ... 100%
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7109379Z (Reading database ... 28891 files and directories currently installed.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7109918Z #7 9.307 Preparing to unpack .../00-dbus-bin_1.16.2-2ubuntu4_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7110381Z #7 9.308 Unpacking dbus-bin (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7110833Z #7 9.323 Selecting previously unselected package dbus-session-bus-common.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7111432Z #7 9.324 Preparing to unpack .../01-dbus-session-bus-common_1.16.2-2ubuntu4_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7111999Z #7 9.325 Unpacking dbus-session-bus-common (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7112456Z #7 9.339 Selecting previously unselected package dbus-daemon.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7113108Z #7 9.341 Preparing to unpack .../02-dbus-daemon_1.16.2-2ubuntu4_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7113568Z #7 9.341 Unpacking dbus-daemon (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7114014Z #7 9.356 Selecting previously unselected package dbus-system-bus-common.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7114542Z #7 9.358 Preparing to unpack .../03-dbus-system-bus-common_1.16.2-2ubuntu4_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7115030Z #7 9.359 Unpacking dbus-system-bus-common (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.7115677Z #7 9.374 Selecting previously unselected package dbus.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8207187Z #7 9.376 Preparing to unpack .../04-dbus_1.16.2-2ubuntu4_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8208601Z #7 9.378 Unpacking dbus (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8210023Z #7 9.395 Selecting previously unselected package libpam-systemd:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8211219Z #7 9.397 Preparing to unpack .../05-libpam-systemd_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8212374Z #7 9.397 Unpacking libpam-systemd:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8213482Z #7 9.414 Selecting previously unselected package dbus-user-session.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8214612Z #7 9.416 Preparing to unpack .../06-dbus-user-session_1.16.2-2ubuntu4_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8216005Z #7 9.417 Unpacking dbus-user-session (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8216974Z #7 9.431 Selecting previously unselected package distro-info-data.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8217838Z #7 9.433 Preparing to unpack .../07-distro-info-data_2026.10.12-0ubuntu0.26.04.1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8218671Z #7 9.434 Unpacking distro-info-data (2026.10.12-0ubuntu0.26.04.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8219418Z #7 9.449 Selecting previously unselected package libdevmapper1.02.1:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8220229Z #7 9.451 Preparing to unpack .../08-libdevmapper1.02.1_2%3a1.02.205-2ubuntu3_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8220982Z #7 9.452 Unpacking libdevmapper1.02.1:amd64 (2:1.02.205-2ubuntu3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8221593Z #7 9.467 Selecting previously unselected package dmsetup.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8222230Z #7 9.469 Preparing to unpack .../09-dmsetup_2%3a1.02.205-2ubuntu3_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8222839Z #7 9.469 Unpacking dmsetup (2:1.02.205-2ubuntu3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.8223414Z #7 9.485 Selecting previously unselected package gir1.2-glib-2.0:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9898227Z #7 9.487 Preparing to unpack .../10-gir1.2-glib-2.0_2.88.0-1ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9899062Z #7 9.488 Unpacking gir1.2-glib-2.0:amd64 (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9899862Z #7 9.508 Selecting previously unselected package libgirepository-2.0-0:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9900715Z #7 9.511 Preparing to unpack .../11-libgirepository-2.0-0_2.88.0-1ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9901558Z #7 9.512 Unpacking libgirepository-2.0-0:amd64 (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9902352Z #7 9.526 Selecting previously unselected package gir1.2-girepository-3.0:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9903542Z #7 9.529 Preparing to unpack .../12-gir1.2-girepository-3.0_2.88.0-1ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9904379Z #7 9.529 Unpacking gir1.2-girepository-3.0:amd64 (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9905064Z #7 9.542 Selecting previously unselected package iso-codes.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9905942Z #7 9.544 Preparing to unpack .../13-iso-codes_4.20.1-1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9906518Z #7 9.545 Unpacking iso-codes (4.20.1-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:39.9907066Z #7 9.654 Selecting previously unselected package libcap2-bin.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0942901Z #7 9.657 Preparing to unpack .../14-libcap2-bin_1%3a2.75-10ubuntu2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0943817Z #7 9.658 Unpacking libcap2-bin (1:2.75-10ubuntu2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0944531Z #7 9.674 Selecting previously unselected package libjson-c5:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0945118Z #7 9.677 Preparing to unpack .../15-libjson-c5_0.18+ds-3_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0945919Z #7 9.678 Unpacking libjson-c5:amd64 (0.18+ds-3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0946410Z #7 9.692 Selecting previously unselected package libcryptsetup12:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0947024Z #7 9.695 Preparing to unpack .../16-libcryptsetup12_2%3a2.8.4-1ubuntu4_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0947588Z #7 9.696 Unpacking libcryptsetup12:amd64 (2:2.8.4-1ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0948083Z #7 9.714 Selecting previously unselected package libglib2.0-data.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0948666Z #7 9.716 Preparing to unpack .../17-libglib2.0-data_2.88.0-1ubuntu0.1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0949193Z #7 9.717 Unpacking libglib2.0-data (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0949656Z #7 9.732 Selecting previously unselected package libkmod2:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0950100Z #7 9.734 Preparing to unpack .../18-libkmod2_34.2-2ubuntu2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0950781Z #7 9.735 Unpacking libkmod2:amd64 (34.2-2ubuntu2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0951193Z #7 9.750 Selecting previously unselected package libnss-systemd:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0951680Z #7 9.752 Preparing to unpack .../19-libnss-systemd_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.0952158Z #7 9.758 Unpacking libnss-systemd:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1949493Z #7 9.775 Selecting previously unselected package libpam-cap:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1950124Z #7 9.777 Preparing to unpack .../20-libpam-cap_1%3a2.75-10ubuntu2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1950636Z #7 9.778 Unpacking libpam-cap:amd64 (1:2.75-10ubuntu2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1951136Z #7 9.792 Selecting previously unselected package libtext-charwidth-perl:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1951744Z #7 9.794 Preparing to unpack .../21-libtext-charwidth-perl_0.04-11build4_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1952294Z #7 9.794 Unpacking libtext-charwidth-perl:amd64 (0.04-11build4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1952798Z #7 9.808 Selecting previously unselected package libtext-wrapi18n-perl.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1953357Z #7 9.810 Preparing to unpack .../22-libtext-wrapi18n-perl_0.06-10_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1953839Z #7 9.811 Unpacking libtext-wrapi18n-perl (0.06-10) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1954293Z #7 9.825 Selecting previously unselected package linux-sysctl-defaults.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1954852Z #7 9.826 Preparing to unpack .../23-linux-sysctl-defaults_4.15ubuntu5_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1955685Z #7 9.827 Unpacking linux-sysctl-defaults (4.15ubuntu5) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1956144Z #7 9.840 Selecting previously unselected package lsb-release.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1956623Z #7 9.842 Preparing to unpack .../24-lsb-release_12.1-2build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1957061Z #7 9.843 Unpacking lsb-release (12.1-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1957478Z #7 9.856 Selecting previously unselected package python-apt-common.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1958004Z #7 9.858 Preparing to unpack .../25-python-apt-common_3.1.0ubuntu1.1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.1958509Z #7 9.859 Unpacking python-apt-common (3.1.0ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2965066Z #7 9.874 Selecting previously unselected package python3-apt.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2966669Z #7 9.876 Preparing to unpack .../26-python3-apt_3.1.0ubuntu1.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2967777Z #7 9.877 Unpacking python3-apt (3.1.0ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2968266Z #7 9.896 Selecting previously unselected package python3-cffi-backend:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2969116Z #7 9.898 Preparing to unpack .../27-python3-cffi-backend_2.0.0-3build1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2969981Z #7 9.899 Unpacking python3-cffi-backend:amd64 (2.0.0-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2970736Z #7 9.914 Selecting previously unselected package python3-dbus.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2971495Z #7 9.916 Preparing to unpack .../28-python3-dbus_1.4.0-1build2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2972196Z #7 9.917 Unpacking python3-dbus (1.4.0-1build2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2972811Z #7 9.936 Selecting previously unselected package python3-gi.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2973575Z #7 9.938 Preparing to unpack .../29-python3-gi_3.56.2-1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2974411Z #7 9.939 Unpacking python3-gi (3.56.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2975065Z #7 9.958 Selecting previously unselected package systemd-cryptsetup.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.2976105Z #7 9.960 Preparing to unpack .../30-systemd-cryptsetup_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4035393Z #7 9.961 Unpacking systemd-cryptsetup (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4036778Z #7 9.981 Selecting previously unselected package systemd-resolved.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4037410Z #7 9.983 Preparing to unpack .../31-systemd-resolved_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4038154Z #7 9.984 Unpacking systemd-resolved (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4038872Z #7 10.01 Selecting previously unselected package ucf.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4039576Z #7 10.01 Preparing to unpack .../32-ucf_3.0052ubuntu1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4040194Z #7 10.01 Moving old data out of the way
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4040982Z #7 10.01 Unpacking ucf (3.0052ubuntu1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4041688Z #7 10.03 Selecting previously unselected package python3-distro-info.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4042423Z #7 10.03 Preparing to unpack .../33-python3-distro-info_1.15_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4043078Z #7 10.03 Unpacking python3-distro-info (1.15) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4043738Z #7 10.05 Selecting previously unselected package libfyaml0:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4044414Z #7 10.05 Preparing to unpack .../34-libfyaml0_0.9.4-1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4045021Z #7 10.05 Unpacking libfyaml0:amd64 (0.9.4-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.4045950Z #7 10.07 Selecting previously unselected package libstemmer0d:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5094926Z #7 10.07 Preparing to unpack .../35-libstemmer0d_3.0.1-1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5095915Z #7 10.07 Unpacking libstemmer0d:amd64 (3.0.1-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5096557Z #7 10.09 Selecting previously unselected package libxmlb2:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5097295Z #7 10.09 Preparing to unpack .../36-libxmlb2_0.3.24-2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5097921Z #7 10.09 Unpacking libxmlb2:amd64 (0.3.24-2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5098571Z #7 10.11 Selecting previously unselected package libappstream5:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5099110Z #7 10.11 Preparing to unpack .../37-libappstream5_1.1.2-1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5099517Z #7 10.11 Unpacking libappstream5:amd64 (1.1.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5099897Z #7 10.13 Selecting previously unselected package appstream.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5100305Z #7 10.13 Preparing to unpack .../38-appstream_1.1.2-1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5100667Z #7 10.14 Unpacking appstream (1.1.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5101024Z #7 10.16 Selecting previously unselected package libassuan9:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5101464Z #7 10.16 Preparing to unpack .../39-libassuan9_3.0.2-2build1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5101876Z #7 10.16 Unpacking libassuan9:amd64 (3.0.2-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.5102245Z #7 10.17 Selecting previously unselected package gpgconf.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6236274Z #7 10.18 Preparing to unpack .../40-gpgconf_2.4.8-4ubuntu3.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6237188Z #7 10.18 Unpacking gpgconf (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6237603Z #7 10.19 Selecting previously unselected package libksba8:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6238050Z #7 10.19 Preparing to unpack .../41-libksba8_1.6.7-2build1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6238461Z #7 10.20 Unpacking libksba8:amd64 (1.6.7-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6238835Z #7 10.21 Selecting previously unselected package libnpth0t64:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6239267Z #7 10.21 Preparing to unpack .../42-libnpth0t64_1.8-3build1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6239658Z #7 10.21 Unpacking libnpth0t64:amd64 (1.8-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6240000Z #7 10.23 Selecting previously unselected package dirmngr.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6240408Z #7 10.23 Preparing to unpack .../43-dirmngr_2.4.8-4ubuntu3.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6240823Z #7 10.25 Unpacking dirmngr (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6241236Z #7 10.27 Selecting previously unselected package libpackagekit-glib2-18:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6241782Z #7 10.27 Preparing to unpack .../44-libpackagekit-glib2-18_1.3.4-3ubuntu1.2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6242297Z #7 10.27 Unpacking libpackagekit-glib2-18:amd64 (1.3.4-3ubuntu1.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.6242759Z #7 10.29 Selecting previously unselected package gir1.2-packagekitglib-1.0.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7245962Z #7 10.29 Preparing to unpack .../45-gir1.2-packagekitglib-1.0_1.3.4-3ubuntu1.2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7246574Z #7 10.29 Unpacking gir1.2-packagekitglib-1.0 (1.3.4-3ubuntu1.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7247201Z #7 10.30 Selecting previously unselected package gpg.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7248005Z #7 10.31 Preparing to unpack .../46-gpg_2.4.8-4ubuntu3.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7248697Z #7 10.31 Unpacking gpg (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7249212Z #7 10.33 Selecting previously unselected package pinentry-curses.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7250254Z #7 10.33 Preparing to unpack .../47-pinentry-curses_1.3.2-3ubuntu1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7251059Z #7 10.33 Unpacking pinentry-curses (1.3.2-3ubuntu1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7251709Z #7 10.35 Selecting previously unselected package gpg-agent.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7252435Z #7 10.35 Preparing to unpack .../48-gpg-agent_2.4.8-4ubuntu3.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7253137Z #7 10.35 Unpacking gpg-agent (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7253795Z #7 10.37 Selecting previously unselected package libduktape207:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7254732Z #7 10.37 Preparing to unpack .../49-libduktape207_2.7.0+tests-0ubuntu4_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7255875Z #7 10.37 Unpacking libduktape207:amd64 (2.7.0+tests-0ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7256631Z #7 10.39 Selecting previously unselected package libglib2.0-bin.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.7257132Z #7 10.39 Preparing to unpack .../50-libglib2.0-bin_2.88.0-1ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8411400Z #7 10.39 Unpacking libglib2.0-bin (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8412180Z #7 10.41 Selecting previously unselected package libgstreamer1.0-0:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8412757Z #7 10.41 Preparing to unpack .../51-libgstreamer1.0-0_1.28.2-1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8413221Z #7 10.41 Unpacking libgstreamer1.0-0:amd64 (1.28.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8413680Z #7 10.44 Selecting previously unselected package libpolkit-gobject-1-0:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8414232Z #7 10.44 Preparing to unpack .../52-libpolkit-gobject-1-0_127-2ubuntu1.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8414748Z #7 10.44 Unpacking libpolkit-gobject-1-0:amd64 (127-2ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8415511Z #7 10.46 Selecting previously unselected package libpolkit-agent-1-0:amd64.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8416070Z #7 10.46 Preparing to unpack .../53-libpolkit-agent-1-0_127-2ubuntu1.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8416587Z #7 10.46 Unpacking libpolkit-agent-1-0:amd64 (127-2ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8417034Z #7 10.48 Selecting previously unselected package sgml-base.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8417477Z #7 10.48 Preparing to unpack .../54-sgml-base_1.31+nmu1build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8418144Z #7 10.49 Unpacking sgml-base (1.31+nmu1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.8418523Z #7 10.51 Selecting previously unselected package xml-core.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9720258Z #7 10.51 Preparing to unpack .../55-xml-core_0.19build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9721001Z #7 10.51 Unpacking xml-core (0.19build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9721408Z #7 10.53 Selecting previously unselected package polkitd.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9722003Z #7 10.53 Preparing to unpack .../56-polkitd_127-2ubuntu1.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9722416Z #7 10.53 Unpacking polkitd (127-2ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9722882Z #7 10.55 Selecting previously unselected package python3-blinker.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9723407Z #7 10.55 Preparing to unpack .../57-python3-blinker_1.9.0-2build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9723834Z #7 10.55 Unpacking python3-blinker (1.9.0-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9724398Z #7 10.57 Selecting previously unselected package python3-bcrypt.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9724852Z #7 10.57 Preparing to unpack .../58-python3-bcrypt_5.0.0-3build1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9725627Z #7 10.57 Unpacking python3-bcrypt (5.0.0-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9726153Z #7 10.59 Selecting previously unselected package python3-cryptography.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9726659Z #7 10.59 Preparing to unpack .../59-python3-cryptography_46.0.5-1ubuntu2.2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9727300Z #7 10.59 Unpacking python3-cryptography (46.0.5-1ubuntu2.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:40.9727723Z #7 10.64 Selecting previously unselected package python3-pyparsing.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0730471Z #7 10.64 Preparing to unpack .../60-python3-pyparsing_3.3.2-2_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0731304Z #7 10.64 Unpacking python3-pyparsing (3.3.2-2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0731977Z #7 10.66 Selecting previously unselected package python3-httplib2.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0732780Z #7 10.66 Preparing to unpack .../61-python3-httplib2_0.22.0-1ubuntu0.1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0733260Z #7 10.66 Unpacking python3-httplib2 (0.22.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0733694Z #7 10.68 Selecting previously unselected package python3-jwt.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0734144Z #7 10.68 Preparing to unpack .../62-python3-jwt_2.10.1-4ubuntu1.3_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0734565Z #7 10.68 Unpacking python3-jwt (2.10.1-4ubuntu1.3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0734955Z #7 10.70 Selecting previously unselected package python3-lazr.uri.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0735687Z #7 10.70 Preparing to unpack .../63-python3-lazr.uri_1.0.6-7build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0736116Z #7 10.70 Unpacking python3-lazr.uri (1.0.6-7build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0736497Z #7 10.72 Selecting previously unselected package python3-wadllib.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0736922Z #7 10.72 Preparing to unpack .../64-python3-wadllib_2.0.0-3_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0737310Z #7 10.72 Unpacking python3-wadllib (2.0.0-3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.0737675Z #7 10.74 Selecting previously unselected package python3-distro.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1885005Z #7 10.74 Preparing to unpack .../65-python3-distro_1.9.0-1build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1886085Z #7 10.74 Unpacking python3-distro (1.9.0-1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1886735Z #7 10.76 Selecting previously unselected package python3-oauthlib.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1887670Z #7 10.76 Preparing to unpack .../66-python3-oauthlib_3.3.1-1build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1888448Z #7 10.76 Unpacking python3-oauthlib (3.3.1-1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1889257Z #7 10.78 Selecting previously unselected package python3-lazr.restfulclient.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1890163Z #7 10.79 Preparing to unpack .../67-python3-lazr.restfulclient_0.14.6-3build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1890986Z #7 10.79 Unpacking python3-lazr.restfulclient (0.14.6-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1891720Z #7 10.81 Selecting previously unselected package python3-launchpadlib.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1892550Z #7 10.81 Preparing to unpack .../68-python3-launchpadlib_2.1.0-1build1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1893284Z #7 10.81 Unpacking python3-launchpadlib (2.1.0-1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1894291Z #7 10.83 Selecting previously unselected package python3-software-properties.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1895326Z #7 10.83 Preparing to unpack .../69-python3-software-properties_0.120.1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1896094Z #7 10.84 Unpacking python3-software-properties (0.120.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.1896721Z #7 10.85 Selecting previously unselected package packagekit.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3082903Z #7 10.86 Preparing to unpack .../70-packagekit_1.3.4-3ubuntu1.2_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3083738Z #7 10.86 Unpacking packagekit (1.3.4-3ubuntu1.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3084709Z #7 10.88 Selecting previously unselected package software-properties-common.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3085841Z #7 10.88 Preparing to unpack .../71-software-properties-common_0.120.1_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3086655Z #7 10.88 Unpacking software-properties-common (0.120.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3087201Z #7 10.90 Selecting previously unselected package systemd-timesyncd.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3087910Z #7 10.90 Preparing to unpack .../72-systemd-timesyncd_259.9-0ubuntu0.1_amd64.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3088905Z #7 10.90 Unpacking systemd-timesyncd (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3089939Z #7 10.92 Selecting previously unselected package unattended-upgrades.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3090873Z #7 10.92 Preparing to unpack .../73-unattended-upgrades_2.12ubuntu9_all.deb ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3091613Z #7 10.93 Unpacking unattended-upgrades (2.12ubuntu9) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.3092226Z #7 10.97 Setting up libksba8:amd64 (1.6.7-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.4362036Z #7 10.97 Setting up libtext-charwidth-perl:amd64 (0.04-11build4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.4362640Z #7 10.98 Setting up systemd-sysv (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.4363259Z #7 10.98 Setting up python3-dbus (1.4.0-1build2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.4367337Z #7 11.10 Setting up libnpth0t64:amd64 (1.8-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.5561014Z #7 11.10 Setting up python3-jwt (2.10.1-4ubuntu1.3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.5561817Z #7 11.22 Setting up libgirepository-2.0-0:amd64 (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.6624941Z #7 11.22 Setting up distro-info-data (2026.10.12-0ubuntu0.26.04.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.6625950Z #7 11.22 Setting up libxmlb2:amd64 (0.3.24-2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.6626377Z #7 11.23 Setting up python3-bcrypt (5.0.0-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.6626867Z #7 11.33 Setting up libpackagekit-glib2-18:amd64 (1.3.4-3ubuntu1.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.7857044Z #7 11.33 Setting up libnss-systemd:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.7858037Z #7 11.34 Setting up python3-lazr.uri (1.0.6-7build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.7858490Z #7 11.45 Setting up libtext-wrapi18n-perl (0.06-10) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.9458348Z #7 11.45 Setting up libfyaml0:amd64 (0.9.4-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.9459048Z #7 11.45 Setting up libcap2-bin (1:2.75-10ubuntu2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.9459725Z #7 11.46 Setting up libglib2.0-data (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.9460454Z #7 11.46 Setting up linux-sysctl-defaults (4.15ubuntu5) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.9461116Z #7 11.46 Setting up python3-pyparsing (3.3.2-2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:41.9593753Z #7 11.62 Setting up python3-wadllib (2.0.0-3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.0684401Z #7 11.73 Setting up systemd-timesyncd (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2279925Z #7 11.74 Creating group 'systemd-timesync' with GID 997.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2280410Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2280704Z #7 11.74 Creating user 'systemd-timesync' (systemd Time Synchronization) with UID 997 and GID 997.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2281101Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2974223Z #7 11.96 Created symlink '/etc/systemd/system/dbus-org.freedesktop.timesync1.service' → '/usr/lib/systemd/system/systemd-timesyncd.service'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2976118Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2976916Z #7 11.96 Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service' → '/usr/lib/systemd/system/systemd-timesyncd.service'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.2977559Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4518014Z #7 11.96 Setting up ucf (3.0052ubuntu1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4520968Z #7 11.97 Setting up gir1.2-glib-2.0:amd64 (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4521422Z #7 11.98 Setting up libdevmapper1.02.1:amd64 (2:1.02.205-2ubuntu3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4521860Z #7 11.98 Setting up python-apt-common (3.1.0ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4522236Z #7 11.98 Setting up dmsetup (2:1.02.205-2ubuntu3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4522637Z #7 11.98 Setting up libduktape207:amd64 (2.7.0+tests-0ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4523077Z #7 11.98 Setting up dbus-session-bus-common (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4523646Z #7 11.99 Setting up libassuan9:amd64 (3.0.2-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4524230Z #7 11.99 Setting up gpgconf (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4524680Z #7 11.99 Setting up python3-httplib2 (0.22.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.4525056Z #7 12.12 Setting up sgml-base (1.31+nmu1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5969790Z #7 12.17 Setting up libstemmer0d:amd64 (3.0.1-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5970275Z #7 12.17 Setting up lsb-release (12.1-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5970745Z #7 12.18 Setting up dbus-system-bus-common (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5971196Z #7 12.18 Creating group 'messagebus' with GID 996.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5971464Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5971719Z #7 12.18 Creating user 'messagebus' (System Message Bus) with UID 996 and GID 996.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5972117Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5972283Z #7 12.19 Setting up libpam-cap:amd64 (1:2.75-10ubuntu2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5972709Z #7 12.26 debconf: unable to initialize frontend: Dialog
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5973404Z #7 12.26 debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.5974098Z #7 12.26 debconf: falling back to frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7739953Z #7 12.27 debconf: unable to initialize frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7740946Z #7 12.27 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7741596Z #7 12.27 debconf: falling back to frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7742251Z #7 12.28 debconf: unable to initialize frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7742824Z #7 12.28 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7743268Z #7 12.28 debconf: falling back to frontend: Noninteractive
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7743817Z #7 12.33 Setting up python3-distro-info (1.15) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.7744185Z #7 12.44 Setting up libjson-c5:amd64 (0.18+ds-3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.8866291Z #7 12.44 Setting up iso-codes (4.20.1-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.8867262Z #7 12.44 Setting up dbus-bin (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.8868005Z #7 12.44 Setting up gpg (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.8869302Z #7 12.55 Created symlink '/etc/systemd/user/sockets.target.wants/keyboxd.socket' → '/usr/lib/systemd/user/keyboxd.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:42.8870387Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.0062584Z #7 12.55 Setting up libpolkit-gobject-1-0:amd64 (127-2ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.0063354Z #7 12.56 Setting up libgstreamer1.0-0:amd64 (1.28.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.0063795Z #7 12.56 Setcap worked! gst-ptp-helper is not suid!
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.0064193Z #7 12.56 Setting up python3-cffi-backend:amd64 (2.0.0-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.0064585Z #7 12.56 Setting up libkmod2:amd64 (34.2-2ubuntu2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.0064947Z #7 12.57 Setting up python3-blinker (1.9.0-2build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.0065624Z #7 12.67 Setting up pinentry-curses (1.3.2-3ubuntu1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.1229317Z #7 12.68 Setting up gpg-agent (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.1230418Z #7 12.79 Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket' → '/usr/lib/systemd/user/gpg-agent-browser.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.1230996Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.2283436Z #7 12.89 Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket' → '/usr/lib/systemd/user/gpg-agent-extra.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.2284357Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.3346241Z #7 13.00 Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket' → '/usr/lib/systemd/user/gpg-agent-ssh.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.3347778Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.4411543Z #7 13.11 Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent.socket' → '/usr/lib/systemd/user/gpg-agent.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.4412811Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.5501226Z #7 13.11 Setting up python3-distro (1.9.0-1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.5501723Z #7 13.21 Setting up python3-apt (3.1.0ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.6888245Z #7 13.35 Setting up libglib2.0-bin (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.8125952Z #7 13.35 Setting up libappstream5:amd64 (1.1.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.8126843Z #7 13.36 Setting up dbus-daemon (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.8127731Z #7 13.37 Setting up gir1.2-girepository-3.0:amd64 (2.88.0-1ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.8128579Z #7 13.37 Setting up dirmngr (2.4.8-4ubuntu3.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.8129590Z #7 13.48 Created symlink '/etc/systemd/user/sockets.target.wants/dirmngr.socket' → '/usr/lib/systemd/user/dirmngr.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.8130458Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9146985Z #7 13.50 Setting up gir1.2-packagekitglib-1.0 (1.3.4-3ubuntu1.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9147781Z #7 13.50 Setting up unattended-upgrades (2.12ubuntu9) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9148425Z #7 13.57 debconf: unable to initialize frontend: Dialog
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9149374Z #7 13.57 debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9150010Z #7 13.57 debconf: falling back to frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9150379Z #7 13.58 debconf: unable to initialize frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9150749Z #7 13.58 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:43.9151117Z #7 13.58 debconf: falling back to frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.0826951Z #7 13.59 debconf: unable to initialize frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.0827833Z #7 13.59 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.0828587Z #7 13.59 debconf: falling back to frontend: Noninteractive
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.0829375Z #7 13.65 Creating config file /etc/apt/apt.conf.d/20auto-upgrades with new version
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.0830367Z #7 13.75 Creating config file /etc/apt/apt.conf.d/50unattended-upgrades with new version
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.2546938Z #7 13.92 Created symlink '/etc/systemd/system/multi-user.target.wants/unattended-upgrades.service' → '/usr/lib/systemd/system/unattended-upgrades.service'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.2548066Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.4759456Z #7 13.97 Setting up appstream (1.1.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.4760150Z #7 13.98 ✔ Metadata cache was updated successfully.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.4760865Z #7 13.99 Setting up python3-cryptography (46.0.5-1ubuntu2.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.5093735Z #7 14.17 Setting up dbus (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.6750432Z #7 14.19 Setting up python3-gi (3.56.2-1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.6766334Z #7 14.34 Setting up xml-core (0.19build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:44.8610689Z #7 14.52 Setting up libpam-systemd:amd64 (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0007608Z #7 14.60 debconf: unable to initialize frontend: Dialog
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0008533Z #7 14.60 debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0009252Z #7 14.60 debconf: falling back to frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0009672Z #7 14.60 debconf: unable to initialize frontend: Readline
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0010131Z #7 14.60 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0010561Z #7 14.60 debconf: falling back to frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0010975Z #7 14.61 debconf: unable to initialize frontend: Teletype
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0011411Z #7 14.61 debconf: (This frontend requires a controlling tty.)
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0011868Z #7 14.61 debconf: falling back to frontend: Noninteractive
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.0012329Z #7 14.66 Setting up libpolkit-agent-1-0:amd64 (127-2ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1409975Z #7 14.67 Setting up libcryptsetup12:amd64 (2:2.8.4-1ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1411001Z #7 14.67 Setting up systemd-resolved (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1411981Z #7 14.68 Converting /etc/resolv.conf to a symlink to /run/systemd/resolve/stub-resolv.conf...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1413175Z #7 14.68 mv: cannot move '/etc/resolv.conf' to '/etc/.resolv.conf.systemd-resolved.bak': Device or resource busy
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1414150Z #7 14.68 Cannot take a backup of /etc/resolv.conf.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1414888Z #7 14.69 ln: failed to create symbolic link '/etc/resolv.conf': Already exists
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1416250Z #7 14.69 Cannot install symlink from /etc/resolv.conf to ../run/systemd/resolve/stub-resolv.conf
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1417121Z #7 14.69 Creating group 'systemd-resolve' with GID 995.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1417564Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1417951Z #7 14.69 Creating user 'systemd-resolve' (systemd Resolver) with UID 995 and GID 995.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1418525Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1419314Z #7 14.80 Created symlink '/etc/systemd/system/dbus-org.freedesktop.resolve1.service' → '/usr/lib/systemd/system/systemd-resolved.service'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1420290Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1421121Z #7 14.80 Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-resolved.service' → '/usr/lib/systemd/system/systemd-resolved.service'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1422135Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1423049Z #7 14.80 Created symlink '/etc/systemd/system/sockets.target.wants/systemd-resolved-varlink.socket' → '/usr/lib/systemd/system/systemd-resolved-varlink.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1424145Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1425056Z #7 14.80 Created symlink '/etc/systemd/system/sockets.target.wants/systemd-resolved-monitor.socket' → '/usr/lib/systemd/system/systemd-resolved-monitor.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.1426505Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.3599670Z #7 15.02 Setting up dbus-user-session (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.5133130Z #7 15.03 Setting up python3-oauthlib (3.3.1-1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.5204113Z #7 15.18 Setting up systemd-cryptsetup (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.6386596Z #7 15.19 Setting up python3-lazr.restfulclient (0.14.6-3build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.6387335Z #7 15.30 Setting up python3-launchpadlib (2.1.0-1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.8641514Z #7 15.53 Created symlink '/etc/systemd/user/timers.target.wants/launchpadlib-cache-clean.timer' → '/usr/lib/systemd/user/launchpadlib-cache-clean.timer'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.8642352Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.9869969Z #7 15.53 Setting up python3-software-properties (0.120.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:45.9870503Z #7 15.65 Processing triggers for libc-bin (2.43-2ubuntu2.4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.1619493Z #7 15.67 Processing triggers for systemd (259.9-0ubuntu0.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.1620176Z #7 15.68 Processing triggers for shared-mime-info (2.4-5build3) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.6007678Z #7 16.26 Processing triggers for procps (2:4.0.4-9ubuntu1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.7999482Z #7 16.27 procps: Applying updated sysctl configuration
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8000163Z #7 16.27 sysctl: setting key "kernel.core_pattern", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8000764Z #7 16.27 sysctl: setting key "kernel.sysrq", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8001340Z #7 16.27 sysctl: setting key "kernel.core_uses_pid", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8001990Z #7 16.27 sysctl: setting key "net.ipv4.conf.default.rp_filter", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8002654Z #7 16.27 sysctl: setting key "net.ipv4.conf.eth0.rp_filter", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8003309Z #7 16.27 sysctl: setting key "net.ipv4.conf.lo.rp_filter", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8004020Z #7 16.27 sysctl: setting key "net.ipv4.conf.default.accept_source_route", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8004853Z #7 16.27 sysctl: setting key "net.ipv4.conf.eth0.accept_source_route", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8005936Z #7 16.27 sysctl: setting key "net.ipv4.conf.lo.accept_source_route", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8007039Z #7 16.27 sysctl: setting key "net.ipv4.conf.default.promote_secondaries", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8007846Z #7 16.27 sysctl: setting key "net.ipv4.conf.eth0.promote_secondaries", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8008612Z #7 16.27 sysctl: setting key "net.ipv4.conf.lo.promote_secondaries", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8009322Z #7 16.27 sysctl: setting key "net.ipv4.ping_group_range", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8009978Z #7 16.27 sysctl: setting key "fs.protected_hardlinks", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8010623Z #7 16.27 sysctl: setting key "fs.protected_symlinks", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8011247Z #7 16.27 sysctl: setting key "fs.protected_regular", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8011869Z #7 16.27 sysctl: setting key "fs.protected_fifos", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8012476Z #7 16.27 sysctl: setting key "vm.max_map_count", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8013377Z #7 16.27 sysctl: setting key "kernel.pid_max", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8014241Z #7 16.27 sysctl: setting key "kernel.printk", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8015406Z #7 16.27 sysctl: setting key "net.ipv6.conf.all.use_tempaddr", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8016508Z #7 16.27 sysctl: setting key "net.ipv6.conf.default.use_tempaddr", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8017493Z #7 16.27 sysctl: setting key "kernel.kptr_restrict", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8018345Z #7 16.27 sysctl: setting key "kernel.sysrq", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8019157Z #7 16.27 sysctl: setting key "vm.max_map_count", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8020048Z #7 16.27 sysctl: setting key "net.ipv4.conf.default.rp_filter", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8020641Z #7 16.27 sysctl: setting key "net.ipv4.conf.all.rp_filter", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8021199Z #7 16.27 sysctl: setting key "kernel.yama.ptrace_scope", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8021723Z #7 16.27 sysctl: setting key "vm.mmap_min_addr", ignoring: Read-only file system
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8022163Z #7 16.27 Processing triggers for sgml-base (1.31+nmu1build1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8022518Z #7 16.28 Setting up polkitd (127-2ubuntu1.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8022830Z #7 16.29 Creating group 'polkitd' with GID 994.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8023038Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8023224Z #7 16.29 Creating user 'polkitd' (User for polkitd) with UID 994 and GID 994.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8023515Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8023650Z #7 16.31 invoke-rc.d: could not determine current runlevel
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8024023Z #7 16.31 invoke-rc.d: policy-rc.d denied execution of reload.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8293532Z #7 16.49 Created symlink '/etc/systemd/system/sockets.target.wants/polkit-agent-helper.socket' → '/usr/lib/systemd/system/polkit-agent-helper.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.8294541Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.9776915Z #7 16.50 Setting up packagekit (1.3.4-3ubuntu1.2) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.9777498Z #7 16.53 invoke-rc.d: could not determine current runlevel
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.9777913Z #7 16.53 invoke-rc.d: policy-rc.d denied execution of force-reload.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.9778591Z #7 16.54 Failed to open connection to "system" message bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.9779584Z #7 16.64 Created symlink '/etc/systemd/user/sockets.target.wants/pk-debconf-helper.socket' → '/usr/lib/systemd/user/pk-debconf-helper.socket'.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:46.9780152Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:47.0872223Z #7 16.65 Setting up software-properties-common (0.120.1) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:47.0872908Z #7 16.75 Processing triggers for dbus (1.16.2-2ubuntu4) ...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:47.2031188Z #7 DONE 16.9s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:47.3545908Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:47.3546494Z #8 [4/8] RUN sudo add-apt-repository ppa:openjdk-r/ppa
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:55.7060343Z #8 8.502 Get:1 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:55.8719192Z #8 8.518 Get:2 http://archive.ubuntu.com/ubuntu resolute InRelease [136 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:55.9904228Z #8 8.787 Ign:3 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:56.1130400Z #8 8.909 Err:4 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:56.1131409Z #8 8.909   404  Not Found [IP: 185.125.189.188 443]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:56.2435902Z #8 9.040 Get:5 http://archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:56.4004277Z #8 9.046 Get:6 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages [746 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:56.4460861Z #8 9.242 Get:7 http://archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:56.6302397Z #8 9.426 Get:8 http://archive.ubuntu.com/ubuntu resolute/main amd64 Packages [1,874 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:56.8203254Z #8 9.616 Get:9 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Components [60.0 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.0493093Z #8 9.845 Get:10 http://archive.ubuntu.com/ubuntu resolute/main amd64 Components [559 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.2051620Z #8 9.886 Get:11 http://archive.ubuntu.com/ubuntu resolute/universe amd64 Packages [20.1 MB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.2052616Z #8 10.00 Get:12 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Packages [258 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.4662756Z #8 10.26 Get:13 http://archive.ubuntu.com/ubuntu resolute/universe amd64 Components [7,047 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5814796Z #8 10.30 Get:14 http://archive.ubuntu.com/ubuntu resolute/restricted amd64 Packages [189 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5817491Z #8 10.30 Get:15 http://archive.ubuntu.com/ubuntu resolute/restricted amd64 Components [491 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5818981Z #8 10.31 Get:16 http://archive.ubuntu.com/ubuntu resolute/multiverse amd64 Packages [352 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5820302Z #8 10.31 Get:17 http://archive.ubuntu.com/ubuntu resolute/multiverse amd64 Components [59.2 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5821593Z #8 10.31 Get:18 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages [991 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5822727Z #8 10.31 Get:19 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Components [146 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5823904Z #8 10.31 Get:20 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Packages [472 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5825084Z #8 10.31 Get:21 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Components [272 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.5826520Z #8 10.38 Get:22 http://archive.ubuntu.com/ubuntu resolute-updates/restricted amd64 Packages [668 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.6967255Z #8 10.39 Get:23 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Components [69.5 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.6969352Z #8 10.43 Get:24 http://archive.ubuntu.com/ubuntu resolute-updates/restricted amd64 Components [159 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.6970446Z #8 10.43 Get:25 http://archive.ubuntu.com/ubuntu resolute-updates/multiverse amd64 Packages [26.1 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.6971566Z #8 10.43 Get:26 http://archive.ubuntu.com/ubuntu resolute-updates/multiverse amd64 Components [161 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.6972887Z #8 10.43 Get:27 http://archive.ubuntu.com/ubuntu resolute-backports/main amd64 Components [159 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.6974134Z #8 10.43 Get:28 http://archive.ubuntu.com/ubuntu resolute-backports/universe amd64 Packages [3,308 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.6975031Z #8 10.49 Get:29 http://archive.ubuntu.com/ubuntu resolute-backports/universe amd64 Components [1,008 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.8798374Z #8 10.49 Get:30 http://archive.ubuntu.com/ubuntu resolute-backports/restricted amd64 Components [161 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.8799542Z #8 10.49 Get:31 http://archive.ubuntu.com/ubuntu resolute-backports/multiverse amd64 Components [163 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:57.8800390Z #8 10.53 Get:32 http://security.ubuntu.com/ubuntu resolute-security/restricted amd64 Packages [609 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:58.0229070Z #8 10.82 Get:33 http://security.ubuntu.com/ubuntu resolute-security/restricted amd64 Components [157 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:58.1386534Z #8 10.93 Get:34 http://security.ubuntu.com/ubuntu resolute-security/multiverse amd64 Packages [24.6 kB]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:16:58.2555337Z #8 11.05 Get:35 http://security.ubuntu.com/ubuntu resolute-security/multiverse amd64 Components [158 B]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.3760265Z #8 12.55 Reading package lists...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4984500Z #8 13.18 E: The repository 'https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release' does not have a Release file.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4986875Z #8 13.19 PPA publishes dbgsym, you may need to include 'main/debug' component
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4987585Z #8 13.19 Repository: 'Types: deb
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4988531Z #8 13.19 URIs: https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu/
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4989090Z #8 13.19 Suites: resolute
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4989459Z #8 13.19 Components: main
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4989696Z #8 13.19 '
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4990166Z #8 13.19 More info: https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4990570Z #8 13.19 Adding repository.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.4990798Z #8 DONE 13.3s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.6374189Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.6374730Z #9 [5/8] RUN sudo apt update
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.6375358Z #9 0.139 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.6375903Z #9 0.139 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:00.6376464Z #9 0.139 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:01.0182306Z #9 0.519 Hit:1 http://archive.ubuntu.com/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:01.1268741Z #9 0.628 Hit:2 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:01.2431121Z #9 0.630 Hit:3 http://security.ubuntu.com/ubuntu resolute-security InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:01.2432640Z #9 0.744 Hit:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:01.4042736Z #9 0.779 Ign:5 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:01.4043952Z #9 0.906 Err:6 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:01.4044575Z #9 0.906   404  Not Found [IP: 185.125.189.188 443]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.0534609Z #9 0.937 Reading package lists...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1139667Z #9 1.569 Error: The repository 'https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release' does not have a Release file.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1142472Z #9 ERROR: process "/bin/sh -c sudo apt update" did not complete successfully: exit code: 100
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1147056Z ------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1147820Z  > [5/8] RUN sudo apt update:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1148487Z 0.139 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1149194Z 0.519 Hit:1 http://archive.ubuntu.com/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1150261Z 0.628 Hit:2 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1151304Z 0.630 Hit:3 http://security.ubuntu.com/ubuntu resolute-security InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1152326Z 0.744 Hit:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1153708Z 0.779 Ign:5 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1154962Z 0.906 Err:6 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1156552Z 0.906   404  Not Found [IP: 185.125.189.188 443]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1157215Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1158293Z 1.569 Error: The repository 'https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release' does not have a Release file.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1160407Z ------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1169701Z Dockerfile:13
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1170021Z --------------------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1170824Z   11 |         sudo rm -rf /var/lib/apt/lists/*
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1171629Z   12 |     RUN sudo add-apt-repository ppa:openjdk-r/ppa
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1172203Z   13 | >>> RUN sudo apt update
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1172681Z   14 |     RUN sudo apt-get -y install openjdk-17-jdk
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1173687Z   15 |     
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1174009Z --------------------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1174974Z ERROR: failed to build: failed to solve: process "/bin/sh -c sudo apt update" did not complete successfully: exit code: 100
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:02.1264222Z ##[warning]Docker build failed with exit code 1, back off 7.163 seconds before retry.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.2897945Z ##[command]/usr/bin/docker build -t e56721:eb8270ffacb648f0a259b200084ec2b7 -f "/home/runner/work/_actions/ArtemSBulgakov/buildozer-action/v1/Dockerfile" "/home/runner/work/_actions/ArtemSBulgakov/buildozer-action/v1"
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.5488143Z #0 building with "default" instance using docker driver
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.5488550Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.5488722Z #1 [internal] load build definition from Dockerfile
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.5489168Z #1 transferring dockerfile: 1.03kB done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.5489513Z #1 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.5489672Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.5489925Z #2 [internal] load metadata for ghcr.io/kivy/buildozer:latest
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.7587957Z #2 DONE 0.4s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8977341Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8977882Z #3 [internal] load .dockerignore
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8978238Z #3 transferring context: 2B done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8978563Z #3 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8978761Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8979249Z #4 [1/8] FROM ghcr.io/kivy/buildozer:latest@sha256:92860ae3822fd533b90ab11f7c2272859980d34b791b1454a09a90e9849a5c7a
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8979834Z #4 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8979960Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8980517Z #5 [3/8] RUN sudo apt-get update &&     sudo apt-get install -y software-properties-common &&     sudo rm -rf /var/lib/apt/lists/*
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8981120Z #5 CACHED
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8981326Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8981481Z #6 [2/8] RUN pip3 uninstall -y buildozer
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8982122Z #6 CACHED
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8982233Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8982453Z #7 [4/8] RUN sudo add-apt-repository ppa:openjdk-r/ppa
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8982873Z #7 CACHED
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8982983Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8983079Z #8 [internal] load build context
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8983350Z #8 transferring context: 35B done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8983697Z #8 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8983865Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8983960Z #9 [5/8] RUN sudo apt update
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8984192Z #9 0.129 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8984533Z #9 0.129 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:09.8985086Z #9 0.129 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:10.0357803Z #9 0.267 Hit:1 http://security.ubuntu.com/ubuntu resolute-security InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:10.4426569Z #9 0.674 Hit:2 http://archive.ubuntu.com/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:10.5843868Z #9 0.762 Ign:3 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:10.5845223Z #9 0.816 Hit:4 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:10.7262011Z #9 0.888 Err:5 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:10.7263204Z #9 0.888   404  Not Found [IP: 185.125.189.187 443]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:10.7264009Z #9 0.958 Hit:6 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4011489Z #9 0.999 Reading package lists...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4596723Z #9 1.648 Error: The repository 'https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release' does not have a Release file.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4602819Z #9 ERROR: process "/bin/sh -c sudo apt update" did not complete successfully: exit code: 100
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4603840Z ------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4604359Z  > [5/8] RUN sudo apt update:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4604927Z 0.129 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4605855Z 0.267 Hit:1 http://security.ubuntu.com/ubuntu resolute-security InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4606831Z 0.674 Hit:2 http://archive.ubuntu.com/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4607900Z 0.762 Ign:3 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4609045Z 0.816 Hit:4 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4610425Z 0.888 Err:5 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4611328Z 0.888   404  Not Found [IP: 185.125.189.187 443]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4612169Z 0.958 Hit:6 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4612844Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4613690Z 1.648 Error: The repository 'https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release' does not have a Release file.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4614888Z ------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4643970Z Dockerfile:13
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4644560Z --------------------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4646738Z   11 |         sudo rm -rf /var/lib/apt/lists/*
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4650414Z   12 |     RUN sudo add-apt-repository ppa:openjdk-r/ppa
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4651307Z   13 | >>> RUN sudo apt update
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4652038Z   14 |     RUN sudo apt-get -y install openjdk-17-jdk
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4652774Z   15 |     
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4658719Z --------------------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4659725Z ERROR: failed to build: failed to solve: process "/bin/sh -c sudo apt update" did not complete successfully: exit code: 100
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:11.4741037Z ##[warning]Docker build failed with exit code 1, back off 4.447 seconds before retry.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:15.9210339Z ##[command]/usr/bin/docker build -t e56721:eb8270ffacb648f0a259b200084ec2b7 -f "/home/runner/work/_actions/ArtemSBulgakov/buildozer-action/v1/Dockerfile" "/home/runner/work/_actions/ArtemSBulgakov/buildozer-action/v1"
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1680878Z #0 building with "default" instance using docker driver
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1681250Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1682233Z #1 [internal] load build definition from Dockerfile
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1682721Z #1 transferring dockerfile: 1.03kB done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1684235Z #1 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1684395Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1684816Z #2 [internal] load metadata for ghcr.io/kivy/buildozer:latest
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.1685432Z #2 DONE 0.1s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3093854Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3094339Z #3 [internal] load .dockerignore
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3095125Z #3 transferring context: 2B done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3095667Z #3 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3095793Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3096164Z #4 [1/8] FROM ghcr.io/kivy/buildozer:latest@sha256:92860ae3822fd533b90ab11f7c2272859980d34b791b1454a09a90e9849a5c7a
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3096714Z #4 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3096834Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3096943Z #5 [2/8] RUN pip3 uninstall -y buildozer
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3097210Z #5 CACHED
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3097317Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3097693Z #6 [3/8] RUN sudo apt-get update &&     sudo apt-get install -y software-properties-common &&     sudo rm -rf /var/lib/apt/lists/*
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3098245Z #6 CACHED
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3098339Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3098475Z #7 [4/8] RUN sudo add-apt-repository ppa:openjdk-r/ppa
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3098801Z #7 CACHED
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3098903Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3098991Z #8 [internal] load build context
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3099254Z #8 transferring context: 35B done
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3099490Z #8 DONE 0.0s
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3099602Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3099686Z #9 [5/8] RUN sudo apt update
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3099903Z #9 0.134 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3100225Z #9 0.134 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.3100617Z #9 0.134 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.6663572Z #9 0.491 Hit:1 http://security.ubuntu.com/ubuntu resolute-security InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.7980874Z #9 0.506 Hit:2 http://archive.ubuntu.com/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.7981930Z #9 0.622 Hit:3 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:16.9136614Z #9 0.738 Hit:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.0858747Z #9 0.781 Ign:5 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.0860074Z #9 0.910 Err:6 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.0861402Z #9 0.910   404  Not Found [IP: 185.125.189.187 443]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7321763Z #9 0.941 Reading package lists...
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7881365Z #9 1.571 Error: The repository 'https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release' does not have a Release file.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7883120Z #9 ERROR: process "/bin/sh -c sudo apt update" did not complete successfully: exit code: 100
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7884095Z ------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7884491Z  > [5/8] RUN sudo apt update:
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7885006Z 0.134 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7886467Z 0.491 Hit:1 http://security.ubuntu.com/ubuntu resolute-security InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7887310Z 0.506 Hit:2 http://archive.ubuntu.com/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7888076Z 0.622 Hit:3 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7888930Z 0.738 Hit:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7889830Z 0.781 Ign:5 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute InRelease
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7890848Z 0.910 Err:6 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7891617Z 0.910   404  Not Found [IP: 185.125.189.187 443]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7891958Z 
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7892671Z 1.571 Error: The repository 'https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu resolute Release' does not have a Release file.
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7899085Z ------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7899509Z Dockerfile:13
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7899835Z --------------------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7900228Z   11 |         sudo rm -rf /var/lib/apt/lists/*
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7900792Z   12 |     RUN sudo add-apt-repository ppa:openjdk-r/ppa
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7901404Z   13 | >>> RUN sudo apt update
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7901878Z   14 |     RUN sudo apt-get -y install openjdk-17-jdk
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7902788Z   15 |     
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7903087Z --------------------
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7903924Z ERROR: failed to build: failed to solve: process "/bin/sh -c sudo apt update" did not complete successfully: exit code: 100
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.7987582Z ##[endgroup]
+android-apk	Build ArtemSBulgakov/buildozer-action@v1	2026-11-01T16:17:17.8081401Z ##[error]Docker build failed with exit code 1
