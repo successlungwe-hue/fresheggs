@@ -15,7 +15,10 @@ app = Flask(
     __name__,
     template_folder=os.path.join(BASE_DIR, "templates"),
     static_folder=os.path.join(BASE_DIR, "static"),
-    instance_path=os.path.join(os.path.dirname(sys.executable), "instance") if FROZEN else None,
+    instance_path=(
+        os.environ.get("FRESHEGGS_DATA_DIR")  # set by main.py on Android
+        or (os.path.join(os.path.dirname(sys.executable), "instance") if FROZEN else None)
+    ),
 )
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "change-this-development-secret")
 DATABASE = os.path.join(app.instance_path, "fresheggs.sqlite3")
@@ -78,7 +81,7 @@ def init_db():
     if db.execute("SELECT 1 FROM admins WHERE username = ?", (admin_user,)).fetchone() is None:
         db.execute(
             "INSERT INTO admins (username, password_hash) VALUES (?, ?)",
-            (admin_user, generate_password_hash(os.environ.get("ADMIN_PASSWORD", "lungwe04!"))),
+            (admin_user, generate_password_hash(os.environ.get("ADMIN_PASSWORD", "lungwe04!"), method="pbkdf2:sha256")),
         )
     db.commit()
 

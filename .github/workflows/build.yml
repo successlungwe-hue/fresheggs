@@ -1,0 +1,36 @@
+name: Build FreshEggs (.exe and .apk)
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  windows-exe:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pyinstaller
+      - run: pyinstaller --noconfirm --clean --onefile --name FreshEggs --icon icon.ico --add-data "templates;templates" --add-data "static;static" desktop.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FreshEggs-windows-exe
+          path: dist/FreshEggs.exe
+
+  android-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build APK with Buildozer
+        id: buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        with:
+          command: buildozer android debug
+          buildozer_version: stable
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FreshEggs-android-apk
+          path: ${{ steps.buildozer.outputs.filename }}

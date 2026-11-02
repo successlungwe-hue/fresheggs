@@ -4,6 +4,6 @@ __pycache__/
 instance/
 build/
 dist/
-*.spec
-.gradle/
-local.properties
+bin/
+.buildozer/
+*.spec.bak
