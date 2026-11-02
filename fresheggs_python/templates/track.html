@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Track an order · FreshEggs{% endblock %}
+{% block content %}
+<section class="track-wrap"><span class="eyebrow">ORDER STATUS</span><h1>Track your order</h1><p>Enter your order number and the phone number you used at checkout.</p>
+<form class="order-form track-form" method="post"><label>Order number *<input type="number" name="order_id" min="1" required placeholder="e.g. 12"></label><label>Phone number *<input name="phone" maxlength="30" required placeholder="Same number used when ordering"></label><button class="primary-button" type="submit">Find my order →</button></form>
+{% if order %}<div class="receipt track-result"><div><span>Order number</span><strong>#{{ order.id }}</strong></div><div><span>Status</span><strong class="status">{{ order.status }}</strong></div><div><span>Placed by</span><strong>{{ order.customer_name }}</strong></div><div><span>Delivery address</span><strong>{{ order.address }}</strong></div><div><span>Preferred delivery date</span><strong>{{ order.delivery_date or 'To be agreed' }}</strong></div><hr>{% for item in items %}<div><span>{{ item.name }} × {{ item.quantity }}</span><strong>{{ (item.unit_price * item.quantity)|mwk }}</strong></div>{% endfor %}<div class="total"><span>Total</span><strong>{{ order.total_amount|mwk }}</strong></div></div>{% endif %}
+</section>
+{% endblock %}

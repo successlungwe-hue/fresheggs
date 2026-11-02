@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="hero-copy"><span class="eyebrow">FRESH • LOCAL • DELIVERED</span><h1>Good mornings<br><em>start with fresh eggs.</em></h1><p>Order carefully packed eggs for your home, shop, restaurant or school. We’ll arrange delivery to the address you provide.</p><a class="primary-button" href="#order">Order eggs <span>→</span></a><div class="trust-row"><span>✓ Easy ordering</span><span>✓ Stock checked</span><span>✓ Delivery arranged</span></div></div>
+  <div class="hero-art" aria-label="Illustration of eggs in a carton"><div class="sun"></div><div class="egg egg-one"></div><div class="egg egg-two"></div><div class="egg egg-three"></div><div class="egg egg-four"></div><div class="carton"></div><div class="art-label">FRESH FROM THE FARM</div></div>
+</section>
+<section id="products" class="section"><div class="section-heading"><div><span class="eyebrow">OUR PRODUCTS</span><h2>Choose your eggs</h2></div><p>Prices shown in Malawi Kwacha (MWK).</p></div>
+<div class="product-grid">
+{% for product in products %}
+<article class="product-card"><div class="product-visual"><span class="tray-emoji">🥚</span><span class="product-tag">30 eggs / tray</span></div><div class="product-info"><h3>{{ product.name }}</h3><p>{{ product.description }}</p><div class="product-bottom"><strong>{{ product.price|mwk }}</strong><span>{{ product.stock_trays }} trays left</span></div></div></article>
+{% else %}<p>No products are currently available.</p>{% endfor %}
+</div></section>
+<section id="order" class="order-section"><div class="order-intro"><span class="eyebrow">QUICK CHECKOUT</span><h2>Place your order</h2><p>Enter your contact and delivery details. The seller will confirm your order.</p><div class="delivery-note"><span>🚚</span><div><strong>Delivery arranged with you</strong><p>The seller will contact you to confirm the delivery details and any delivery fee.</p></div></div></div>
+<form class="order-form" method="post" action="{{ url_for('place_order') }}"><div class="form-title"><h3>Order details</h3><span>* Required</span></div>
+<label>Full name *<input name="customer_name" maxlength="100" required placeholder="Enter your name"></label>
+<label>Phone / WhatsApp *<input name="phone" maxlength="30" required placeholder="+265 ..."></label>
+<label>Delivery address *<textarea name="address" maxlength="500" rows="2" required placeholder="Area, street, house or landmark"></textarea></label>
+<div class="form-row"><label>Egg type *<select name="product_id" required><option value="">Select a product</option>{% for product in products %}<option value="{{ product.id }}" {% if product.stock_trays == 0 %}disabled{% endif %}>{{ product.name }} — {{ product.price|mwk }} ({{ product.stock_trays }} available)</option>{% endfor %}</select></label><label>Number of trays *<input type="number" name="quantity" min="1" max="500" value="1" required></label></div>
+<label>Preferred delivery date<input type="date" name="delivery_date" min="{{ today }}"></label>
+<label>Extra instructions (optional)<textarea name="notes" maxlength="1000" rows="2" placeholder="e.g. Call when nearby"></textarea></label>
+<button class="primary-button submit-button" type="submit">Submit order <span>→</span></button><p class="fine-print">No online payment is taken. The seller will contact you to confirm the order and delivery.</p>
+</form></section>
+{% endblock %}
